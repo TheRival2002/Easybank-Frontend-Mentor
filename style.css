@@ -392,7 +392,7 @@ h3 {
     inset: 5.25rem 1.5rem auto;
     background-color: var(--clr-neutral-100);
     border-radius: 0.5rem;
-    box-shadow: 0 150px 370px 80px var(--clr-primary-700);
+    box-shadow: 0 0 50px 20px var(--clr-primary-700);
   }
   .header-nav[data-visible] > ul > li + li {
     margin-top: 1.25em;
