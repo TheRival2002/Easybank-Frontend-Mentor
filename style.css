@@ -632,6 +632,7 @@ h3 {
     background-color: var(--clr-neutral-100);
     border-radius: 0.5rem;
     box-shadow: 0 0 0 1000vw hsl(0 0% 0% / 0.5);
+    animation: fadeIn 350ms ease;
   }
   .header-nav[data-visible] > ul > li + li {
     margin-top: 1.25em;
@@ -642,6 +643,15 @@ h3 {
   .header-nav > ul {
     display: flex;
     gap: 2em;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
   }
 }
 
